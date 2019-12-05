@@ -1,0 +1,112 @@
+body{
+	background-color: #edf2f7;
+}
+input[type = file]{
+	display: none;
+}
+.upload_container,
+.upload_list{
+	max-width: 400px;
+	margin: auto;
+	border: 1px solid #e2e8f0;
+	background-color: #fff;
+	font-family: sans-serif;
+	overflow: hidden;
+}
+.upload_list{
+	margin-top: 20px;
+	padding: 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: none;
+}
+.upload_list ul{
+	margin: 0;
+    padding: 0;
+}
+.upload_list li{
+	position: relative;
+	height: 25px;
+    width: 100%;
+    line-height: 25px;
+    list-style: none;
+    font-size: 13px;
+    display: block;
+    white-space: pre-wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 7px 0;
+    color: #52696d;
+}
+.upload_list li i{
+	position: absolute;
+    left: 0;
+    color: #25c4f2;
+    top: 7px;
+}
+.upload_list li span{
+    position: absolute;
+    top: 1px;
+    left: 20px;
+}
+.upload_name{
+	width: auto;
+	height: 35px;
+	line-height: 35px;
+	padding: 0 20px;
+	font-size: 14px;
+    text-transform: capitalize;
+    color: #6d8b90;
+    white-space: pre-wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-bottom: 1px solid #e2e8f0;
+}
+.upload_progress{
+	width: auto;
+    height: 8px;
+    margin: 20px;
+    background-color: #edf2f7;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.upload_bar{
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	background-color: #25c4f2;
+	width: 0;
+}
+.upload_info{
+    margin: 0 20px;
+    margin-top: -10px;
+    font-size: 13px;
+    color: #6d8b90;	
+}
+.upload_container button{
+	display: inline-block;
+    border: 0;
+    outline: none;
+    padding: 7px 11px;
+    font-size: 13px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    cursor: pointer;
+	background-color: #e0e4e8;
+    color: #52696d;
+}
+.upload_list_head{
+	font-size: 15px;
+    color: #434b4e;
+    float: left;
+    margin-bottom: 15px;
+}
+.buttons_container{
+	padding: 20px;
+}
